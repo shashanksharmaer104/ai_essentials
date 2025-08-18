@@ -44,8 +44,7 @@ def generate_x_post(topic: str) -> str:
 def main():
     # user input => AI(LLM) to generate X post => output post
     usr_input = input("What should the post be about? ")
-    sdk = OpenAISDK()
-    x_post = sdk.generate_x_post(usr_input)
+    x_post = generate_x_post(usr_input)
     print("Generated X Post")
     print(x_post)
 
