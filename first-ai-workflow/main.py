@@ -1,7 +1,6 @@
 import os
 import requests
 from dotenv import load_dotenv
-from openaisdk import OpenAISDK
 
 # Load environment variables from .env file
 load_dotenv()
